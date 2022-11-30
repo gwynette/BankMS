@@ -22,3 +22,4 @@ class Account(models.Model):
 
     def withdraw(self, withdraw_amount):
         self.amount = self.amount - withdraw_amount
+
